@@ -17,6 +17,10 @@
     font-size: 1em;
 }
 
+html, body{
+    min-height: 100vh;
+}
+
 header{
     text-align: center;
     background-color: var(--cor1);

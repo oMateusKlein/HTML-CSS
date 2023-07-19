@@ -16,14 +16,27 @@
     margin: 0px;
 }
 
-p{
-    font-family: var(--fonte2);
-    margin-left: 40px;
+section{
     margin-top: 3vw;
     margin-bottom: 3vw;
-    font-size: 3vw;
     margin: 20px, 0px, 20px, 0px;
 }
+
+p{
+    font-family: var(--fonte2);
+    font-size: 3vw;
+    padding-left: 80px;
+}
+
+section.image>P{
+    display: inline-block;
+    background-color: rgba(0, 0, 0, 0.288);
+    color: white;
+    max-width: 40%;
+    margin-left: 40px;
+    padding : 40px;
+}
+
 
 #image1{
     background: white  url(imagens/background001.jpg) center center no-repeat fixed;
@@ -37,14 +50,6 @@ p{
 
 }
 
-.shadow{
-    background-color: rgba(0, 0, 0, 0.288);
-    color: white;
-    max-width: 40%;
-    margin-left: 20px;
-    padding-left: 20px;
-}
-
 .space{
-    margin-top: 20px;
+    margin-top: 4%;
 }
