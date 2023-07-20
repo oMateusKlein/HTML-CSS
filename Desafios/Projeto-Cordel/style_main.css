@@ -24,30 +24,30 @@ section{
 
 p{
     font-family: var(--fonte2);
-    font-size: 3vw;
+    font-size: 2vw;
     padding-left: 80px;
 }
 
-section.image>P{
+section>P.image{
     display: inline-block;
-    background-color: rgba(0, 0, 0, 0.288);
+    background-color: rgba(0, 0, 0, 0.445);
     color: white;
     max-width: 40%;
-    margin-left: 40px;
+    margin: 40px;
     padding : 40px;
 }
 
 
 #image1{
+    box-shadow: inset 13px 13px 23px 0px rgba(0, 0, 0, 0.562);
     background: white  url(imagens/background001.jpg) center center no-repeat fixed;
     background-size: cover;
-
 }
 
 #image2{
+    box-shadow: inset 13px 13px 23px 0px rgba(0, 0, 0, 0.562);
     background: white  url(imagens/background002.jpg) center center no-repeat fixed;
     background-size: cover;
-
 }
 
 .space{
