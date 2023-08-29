@@ -3,3 +3,13 @@
 header{
     background-color: grey;
 }
+
+ul>li{
+    display: inline;
+}
+
+article{
+    width: 600px;
+    display: block;
+    margin: auto;
+}
