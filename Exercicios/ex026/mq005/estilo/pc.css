@@ -3,3 +3,23 @@
 main{
     max-width: 60%;
 }
+
+menu li{
+    display: inline-block;
+}
+
+menu{
+    padding-bottom: 0px;
+}
+
+ul>a{
+    border: 1px solid black;
+    background-color: rgb(60, 60, 60);
+    padding: 3px; 
+}
+
+li{
+    color: white;
+    font-size: 0.8em;
+    background-color: rgb(60, 60, 60);
+}
