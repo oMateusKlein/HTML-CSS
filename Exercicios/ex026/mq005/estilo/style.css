@@ -30,6 +30,25 @@ span{
 menu{
     margin-bottom: 0px;
     background-color: rgb(95, 95, 95);
+    display: none;
+}
+
+menu>ul{
+    list-style-type: none;
+}
+
+i#burguer{
+    background-color: rgb(32, 32, 32);
+    color: white;
+    display: block;
+    text-align: center;
+    padding: 10px;
+}
+
+i#burguer:hover{
+    background-color: white;
+    color: rgb(32, 32, 32);
+    cursor: pointer;
 }
 
 ul>a{
