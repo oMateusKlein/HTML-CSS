@@ -20,3 +20,10 @@ li{
     margin: 0px;
 }
 
+i#burguer{
+    display: none;
+}
+
+menu{
+    display: block;
+}
