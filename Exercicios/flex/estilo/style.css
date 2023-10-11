@@ -3,4 +3,34 @@
 *{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+:root{
+    --fonte1: 'Poppins', sans-serif;
+    --cortexto: #285A5B;
+    --corfundo: #D5EBDE;
+}
+
+/* cores 
+Verde para fontes #285A5B
+Verde para fundos #D5EBDE
+*/
+
+body, html{
+    width: 97vw;
+    height: 100vh;
+}
+
+header{
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+header>div.headerimg{
+    background-image: url(../image/logo_gramado.png);
+    background-size: 15%;
 }
