@@ -1,16 +1,16 @@
 @charset "UTF-8";
 
 *{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
 }
 
 :root{
-    --fonte1: 'Poppins', sans-serif;
-    --cortexto: #285A5B;
-    --corfundo: #D5EBDE;
+  --fonte1: 'Poppins', sans-serif;
+  --cortexto: #285A5B;
+  --corfundo: #D5EBDE;
 }
 
 /* cores 
@@ -19,18 +19,40 @@ Verde para fundos #D5EBDE
 */
 
 body, html{
-    width: 97vw;
-    height: 100vh;
+  width: 100%;
+  height: 100vh;
 }
 
 header{
-    height: 100px;
-    width: 100%;
-    display: flex;
-    justify-content: center;
+  height: 104px;
+  width: 100%;
+
+  display: flex;
+  justify-content: space-between;
+
+  padding: 8px 20%;
 }
 
-header>div.headerimg{
-    background-image: url(../image/logo_gramado.png);
-    background-size: 15%;
+header>img{
+  width: auto;
+  height: 100%;
+} 
+
+
+nav{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav>a{
+  text-decoration: none;
+  color: #285A5B;
+  padding: 15px;
+}
+
+.banner{
+  background-image: url(../header.jpg);
+  width: 100%;
+  height: 60%;
 }
