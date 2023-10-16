@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+:root{
+  --fonte1: 'Poppins', sans-serif;
+  --cortexto: #285A5B;
+  --corfundo: #D5EBDE;
+}
+
+body, html{
+  width: 99vw;
+  height: 100vh;
+}
+
+header{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 104px;
+  width: 100%;
+  padding: 8px 10%;
+}
+
+header>img{
+justify-self: start;
+  height: 100%;
+} 
+
+header>a{
+  text-decoration: none;
+  color: var(--cortexto);
+  padding: 15px;
+}

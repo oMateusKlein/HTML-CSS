@@ -13,35 +13,6 @@
   --corfundo: #D5EBDE;
 }
 
-/* cores 
-Verde para fontes #285A5B
-Verde para fundos #D5EBDE
-*/
-
-body, html{
-  width: 100vw;
-  height: 100vh;
-}
-
-header{
-  display: flex;
-  justify-content: flex-start;
-  align-items: center;
-  height: 104px;
-  width: 100%;
-  padding: 8px 10%;
-}
-
-header>img{
-  height: 100%;
-} 
-
-header>a{
-  text-decoration: none;
-  color: var(--cortexto);
-  padding: 15px;
-}
-
 .banner{
   display: flex;
   flex-direction: column;
@@ -50,18 +21,33 @@ header>a{
   background-image: url(../image/obie-fernandez-KMDXqrESUuw-unsplash.jpg);
   background-size: cover;
   width: auto;
-  height: 600px;  
+  height: 800px;  
 }
 
-.banner>h1,h2,p{
+div.banner>p{
   font-family: Adam;
   color: white;
-  font-size: 2em;
+  font-size: 3em;
   text-align: center;
   text-shadow: 2px 2px 2px black;
 }
 
-.banner>h1{
-  font-size: 4em;
+div.banner>h1{
+  font-family: Adam;
+  color: white;
+  font-size: 5em;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
   backdrop-filter: blur(2px) saturate(100%);
+  padding: 30px;
 }
+
+div.banner>h2{
+  font-family: Adam;
+  color: white;
+  font-size: 3em;
+  text-align: center;
+  text-shadow: 2px 2px 2px black;
+}
+  
+  
