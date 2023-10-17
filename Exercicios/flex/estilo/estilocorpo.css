@@ -13,6 +13,12 @@
   --corfundo: #D5EBDE;
 }
 
+main{
+  text-align: center;
+  font-family: var(--fonte1);
+  color: var(--cortexto);
+}
+
 .banner{
   display: flex;
   flex-direction: column;
@@ -50,4 +56,35 @@ div.banner>h2{
   text-shadow: 2px 2px 2px black;
 }
   
-  
+.apresentacaoprodutos{
+  display: flex;
+  justify-content: center;
+  padding-top: 60px;
+}
+
+.boxsobre{
+  background-color: blue;
+  width: 30%;
+  height: 500px;
+  background-image: url(../image/postura.jpg);
+  background-size: cover;
+  background-position: left;
+}
+
+.backgroundverdesobre{
+  background-color: var(--corfundo);
+}
+
+.produtos{
+  background-color: purple;
+  width: 30%;
+  height: 500px;
+}
+
+.fotopsc{
+  background-image: url(../image/psc.jpg);
+  background-size: cover;
+  background-position: center;
+  width: 30%;
+  height: 500px;
+}
