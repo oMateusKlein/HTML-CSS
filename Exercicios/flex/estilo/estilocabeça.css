@@ -28,7 +28,7 @@ header{
 }
 
 header>img{
-justify-self: start;
+  justify-self: start;
   height: 100%;
 } 
 
