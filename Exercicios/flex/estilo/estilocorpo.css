@@ -137,3 +137,21 @@ div.banner>h2{
   width: 30%;
   height: 500px;
 }
+
+article>h2{
+  padding-top: 32px;
+  font-size: 2em;
+  font-weight: 300;
+}
+
+.origemgenetica{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.origemgenetica>div{
+  width: 30%;
+  margin-top: 32px;
+}
+

@@ -21,9 +21,10 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 104px;
+  height: 152px;
   width: 100%;
   padding: 8px 10%;
+  font-size: 1.2em;
 }
 
 header>img{
