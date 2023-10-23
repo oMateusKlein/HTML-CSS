@@ -1,0 +1,25 @@
+@charset "UTF-8";
+
+footer{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 64px;
+}
+
+footer>img{
+    width: 300px;
+}
+
+.footerempresa{
+    margin-left: 32px;
+}
+
+.footerempresa>h3{
+    margin-bottom: 16px;
+}
+
+footer>p{
+    height: 20px;
+    align-self: center;
+    margin-bottom: 15px;
+}

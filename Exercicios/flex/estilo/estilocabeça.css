@@ -17,6 +17,10 @@ body, html{
   height: 100vh;
 }
 
+h1, h2, h3, p{
+  color: var(--cortexto);
+}
+
 header{
   display: flex;
   justify-content: center;

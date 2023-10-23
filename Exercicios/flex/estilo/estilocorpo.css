@@ -14,9 +14,12 @@ main{
   justify-content: center;
   align-items: center;
   background-image: url(../image/obie-fernandez-KMDXqrESUuw-unsplash.jpg);
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
   background-size: cover;
   width: auto;
-  height: 800px;  
+  height: 500px;  
 }
 
 div.banner>p{
