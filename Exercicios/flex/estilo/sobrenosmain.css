@@ -1,0 +1,26 @@
+@charset "UTF-8";
+
+
+main{
+    text-align: center;
+    width: 80%;
+}
+
+.bannersobrenos{
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: var(--corfundo);
+}
+
+.txtbannersobrenos{
+    width: 100%;
+}
+
+.bannerimgsobrenos{
+    background-image: url(../image/postura.jpg);
+    background-size: cover;
+    background-position: left; 
+    width: 100%;
+    height: 500px; 
+}
