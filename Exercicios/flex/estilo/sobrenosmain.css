@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 main{
-    width: 1700px;
+    max-width: 90%;
     margin: auto;
 }
 
@@ -50,5 +50,21 @@ article{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin-top: 48px;
+    margin-top: 160px;
+}
+
+article>img{
+    padding: 48px 0px;
+}
+
+article>h1{
+    font-size: 2.5em;
+    padding-bottom: 48px;
+}
+
+article>p{
+    padding-bottom: 16px;
+    font-size: 1.2em;
+    text-align: center;
+    max-width: 50%;
 }
