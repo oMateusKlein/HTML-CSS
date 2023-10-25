@@ -68,3 +68,40 @@ article>p{
     text-align: center;
     max-width: 50%;
 }
+
+.bannersobrenosinferior{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    background-color: var(--corfundo);
+    margin-top: 40px;
+    height: 650px;
+}
+
+.imgsobrenosinferior{
+    background-image: url(../image/Pintinhoembrapa.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: right;
+    background-size: cover;
+    width: 50%;
+}
+
+.txtsobrenosinferior{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+}
+
+.txtsobrenosinferior>h3{
+    margin-bottom: 80px;
+    font-size: 2.5em;
+}
+
+.txtsobrenosinferior>p{
+    margin-bottom: 16px;
+    font-size: 1.4em;
+    width: 500px;
+}
