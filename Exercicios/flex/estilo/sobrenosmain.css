@@ -78,13 +78,17 @@ article>p{
     height: 650px;
 }
 
+.contsobrenosinferior{
+    width: 50%;
+}
 .imgsobrenosinferior{
     background-image: url(../image/Pintinhoembrapa.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed;
-    background-position: right;
-    background-size: cover;
-    width: 50%;
+    background-position: left;
+    background-size: contain;
+    width: 100%;
+    height: 650px;
 }
 
 .txtsobrenosinferior{
