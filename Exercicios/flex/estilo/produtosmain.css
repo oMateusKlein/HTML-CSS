@@ -1,17 +1,44 @@
 @charset "UTF-8";
 
-main
+main{
+    text-align: center;
+}
+
+.maintopo>h1{
+    font-size: 3.2em;
+    font-family: monospace;
+    margin-bottom: 32px;
+}
+
+.maintopo>h2{
+    font-size: 1.6em;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
 
 section{
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    width: 1100px;
+    margin: auto;
+    margin-top: 48px;
 }
 
 .imagem{
     width: 300px;
     height: 300px;
     background-color: blue;
+}
+
+.tagraca>p{
+    background-color: var(--corfundo);
+    text-align: center;
+    width: 30%;
+}
+
+.containerraca{
+    text-align: left;
     margin: 15px;
-    flex-wrap: wrap;
+    font-size: 1em;
+    margin-top: 16px;
 }
