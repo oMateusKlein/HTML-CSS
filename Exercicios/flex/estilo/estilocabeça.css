@@ -25,11 +25,15 @@ header{
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 152px;
+  height: 120px;
   width: 100%;
   padding: 8px 10%;
   font-size: 1.2em;
   background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
 }
 
 header>img{
@@ -41,4 +45,8 @@ header>a{
   text-decoration: none;
   color: var(--cortexto);
   padding: 15px;
+}
+
+main{
+  margin-top: 152px;
 }
