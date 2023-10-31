@@ -30,6 +30,10 @@ section{
     background-color: blue;
 }
 
+.imagem:hover{
+    background-color: red;
+}
+
 .tagraca>p{
     background-color: var(--corfundo);
     text-align: center;
@@ -41,4 +45,9 @@ section{
     margin: 15px;
     font-size: 1em;
     margin-top: 16px;
+}
+
+.containerraca>p{
+    margin-top: 8px;
+    font-weight: bold;
 }
