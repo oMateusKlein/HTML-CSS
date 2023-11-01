@@ -1,8 +1,11 @@
 @charset "UTF-8";
 
+.completedproduct{
+    display: flex;
+}
+
 iframe{
     width: 60%;
-    
 }
 
 a>img{
