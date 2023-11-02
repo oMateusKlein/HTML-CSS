@@ -1,13 +1,24 @@
 @charset "UTF-8";
 
+
+main{
+    height: 50vh;
+}
+
 .completedproduct{
     display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 iframe{
-    width: 60%;
+    
 }
 
 a>img{
     width: 100px;
+}
+
+.textoprodutos{
+    width: 40%;
 }
