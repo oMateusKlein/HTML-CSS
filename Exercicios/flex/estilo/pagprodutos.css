@@ -5,14 +5,14 @@ main{
     height: 50vh;
 }
 
+iframe{
+    width: 400px;
+}
+
 .completedproduct{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-iframe{
-    
 }
 
 a>img{

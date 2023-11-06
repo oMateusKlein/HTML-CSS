@@ -1,0 +1,6 @@
+@charset "UTF-8";
+
+body{
+    background: white url(../image/postura.jpg) no-repeat center center;
+    background-size: cover;
+}
