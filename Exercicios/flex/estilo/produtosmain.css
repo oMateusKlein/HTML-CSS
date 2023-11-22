@@ -5,14 +5,14 @@ main{
 }
 
 .maintopo>h1{
-    font-size: 3.2em;
-    font-family: monospace;
+    font-size: 2.6em;
+    font-family: var(--fonte1);
     margin-bottom: 32px;
 }
 
 .maintopo>h2{
     font-size: 1.6em;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: var(--fonte1);
 }
 
 section{
